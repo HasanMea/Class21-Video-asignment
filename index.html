@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>video assignment-1</title>
+</head>
+
+<body>
+
+    <div class="container  text-center">
+
+        <div>
+            <h2 class="bg-info text-white py-2">Bootstrap heading</h2>
+            <p class="h1">h1. Bootstrap heading</p>
+            <p class="h2">h2. Bootstrap heading</p>
+            <p class="h3">h3. Bootstrap heading</p>
+            <p class="h4">h4. Bootstrap heading</p>
+            <p class="h5">h5. Bootstrap heading</p>
+            <p class="h6">h6. Bootstrap heading</p>
+        </div>
+
+        <div>
+            <h2 class="bg-info text-white py-2">Bootstrap Fancy display</h2>
+            <h3>
+                Fancy display heading
+                <small class="text-muted">With faded secondary text</small>
+            </h3>
+        </div>
+
+        <div>
+            <h2 class="bg-info text-white py-2">Bootstrap Display</h2>
+            <h1 class="display-1">Display 1</h1>
+            <h1 class="display-2">Display 2</h1>
+            <h1 class="display-3">Display 3</h1>
+            <h1 class="display-4">Display 4</h1>
+            <h1 class="display-5">Display 5</h1>
+            <h1 class="display-6">Display 6</h1>
+        </div>
+
+        <div>
+            <h2 class="bg-info text-white py-2">Bootstrap Lead</h2>
+            <p class="lead">
+                This is a lead paragraph. It stands out from regular paragraphs.
+            </p>
+        </div>
+
+        <div>
+            <h2 class="bg-info text-white py-2">Bootstrap Abbreviations</h2>
+            <p><abbr title="attribute">attr</abbr></p>
+            <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
+        </div>
+
+        <div>
+            <h2 class="bg-info text-white py-2">Bootstrap Blockquotes</h2>
+            <figure>
+                <blockquote class="blockquote">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    Someone famous in <cite title="Source Title">Source Title</cite>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="bg-light">
+            <h2 class="bg-info text-white py-2">Bootstrap Images</h2>
+            <img src="img/jillur.jpg" class="img-fluid" alt="...">
+            <img src="img/profile.jpg" class="img-thumbnail" alt="...">
+        </div>
+
+        <div>
+            <h2 class="bg-info text-white py-2">Bootstrap Text truncation</h2>
+            <!-- Block level -->
+            <div class="row">
+                <div class="col-2 text-truncate">
+                    Praeterea iter est quasdam res quas ex communi.
+                </div>
+            </div>
+
+            <!-- Inline level -->
+            <span class="d-inline-block text-truncate" style="max-width: 150px;">
+                Praeterea iter est quasdam res quas ex communi.
+            </span>
+        </div>
+
+
+        <div>
+            <h2>Bootstrap Background Color</h2>
+            <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+            <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+            <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+            <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+            <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+            <div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+        </div>
+
+        <div>
+            <h2>Bootstrap color</h2>
+            <p class="text-primary">.text-primary</p>
+            <p class="text-secondary">.text-secondary</p>
+            <p class="text-success">.text-success</p>
+            <p class="text-danger">.text-danger</p>
+            <p class="text-warning">.text-warning</p>
+            <p class="text-info">.text-info</p>
+        </div>
+
+        <div>
+            <h2 class="pb-2">Bootstrap Display inline</h2>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+        </div>
+
+        <div>
+            <h2 class="pt-2">Bootstrap Display Block</h2>
+            <span class="d-block p-2 bg-primary text-white">d-block</span>
+            <span class="d-block p-2 bg-dark text-white">d-block</span>
+        </div>
+
+        <div>
+            <h2>Bootstrap Text selection</h2>
+            <p class="user-select-all">This paragraph will be entirely selected when clicked by the user.</p>
+            <p class="user-select-auto">This paragraph has default select behavior.</p>
+            <p class="user-select-none">This paragraph will not be selectable when clicked by the user.</p>
+        </div>
+
+        <div>
+            <h2>Bootstrap Pointer events</h2>
+            <p><a href="#" class="pe-none" tabindex="-1" aria-disabled="true">This link</a> can not be clicked.</p>
+            <p><a href="#" class="pe-auto">This link</a> can be clicked (this is default behavior).</p>
+            <p class="pe-none"><a href="#" tabindex="-1" aria-disabled="true">This link</a> can not be clicked because
+                the <code>pointer-events</code> property is inherited from its parent. However, <a href="#"
+                    class="pe-auto">this link</a> has a <code>pe-auto</code> class and can be clicked.</p>
+        </div>
+
+        <div>
+            <h2>Bootstrap Shadows</h2>
+            <div class="shadow-none p-3 mb-5 bg-light rounded">No shadow</div>
+<div class="shadow-sm p-3 mb-5 bg-body rounded">Small shadow</div>
+<div class="shadow p-3 mb-5 bg-body rounded">Regular shadow</div>
+<div class="shadow-lg p-3 mb-5 bg-body rounded">Larger shadow</div>
+        </div>
+
+        <div>
+            <h2>Bootstrap Table</h2>
+            <table class="table table-bordered text-center table-hover ">
+                <thead>
+                    <tr class="table-dark">
+                        <th>No.</th>
+                        <th>Name</th>
+                        <th>Class</th>
+                        <th>Roll</th>
+                        <th>Section</th>
+                        <th>Address</th>
+                        <th>Contact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-primary">
+                        <td scope="row">1</td>
+                        <td scope="row">Shahid</td>
+                        <td scope="row">Ten</td>
+                        <td scope="row">15</td>
+                        <td scope="row">A</td>
+                        <td scope="row">Dhaka</td>
+                        <td scope="row">+8809734982</td>
+                    </tr>
+                    <tr class="table-secondary">
+                        <td scope="row">1</td>
+                        <td scope="row">Arif</td>
+                        <td scope="row">Ten</td>
+                        <td scope="row">15</td>
+                        <td scope="row">A</td>
+                        <td scope="row">Dhaka</td>
+                        <td scope="row">+8809734982</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td scope="row">1</td>
+                        <td scope="row">Hasib</td>
+                        <td scope="row">Ten</td>
+                        <td scope="row">15</td>
+                        <td scope="row">A</td>
+                        <td scope="row">Dhaka</td>
+                        <td scope="row">+8809734982</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td scope="row">1</td>
+                        <td scope="row">Hasib</td>
+                        <td scope="row">Ten</td>
+                        <td scope="row">15</td>
+                        <td scope="row">A</td>
+                        <td scope="row">Dhaka</td>
+                        <td scope="row">+8809734982</td>
+                    </tr>
+                    <tr class="table-warning">
+                        <td scope="row">1</td>
+                        <td scope="row">Hasib</td>
+                        <td scope="row">Ten</td>
+                        <td scope="row">15</td>
+                        <td scope="row">A</td>
+                        <td scope="row">Dhaka</td>
+                        <td scope="row">+8809734982</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td scope="row">1</td>
+                        <td scope="row">Hasib</td>
+                        <td scope="row">Ten</td>
+                        <td scope="row">15</td>
+                        <td scope="row">A</td>
+                        <td scope="row">Dhaka</td>
+                        <td scope="row">+8809734982</td>
+                    </tr>
+                    <tr class="table-secondary">
+                        <td scope="row">1</td>
+                        <td scope="row">Hasib</td>
+                        <td scope="row">Ten</td>
+                        <td scope="row">15</td>
+                        <td scope="row">A</td>
+                        <td scope="row">Dhaka</td>
+                        <td scope="row">+8809734982</td>
+                    </tr>
+                    <tr class="table-primary">
+                        <td scope="row">1</td>
+                        <td scope="row">Hasib</td>
+                        <td scope="row">Ten</td>
+                        <td scope="row">15</td>
+                        <td scope="row">A</td>
+                        <td scope="row">Dhaka</td>
+                        <td scope="row">+8809734982</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td scope="row">1</td>
+                        <td scope="row">Hasib</td>
+                        <td scope="row">Ten</td>
+                        <td scope="row">15</td>
+                        <td scope="row">A</td>
+                        <td scope="row">Dhaka</td>
+                        <td scope="row">+8809734982</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
